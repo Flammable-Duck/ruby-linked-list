@@ -1,5 +1,5 @@
 # Linked List
-An Implementation of a linked list in Ruby.
+An Implementation of a linked list in Ruby. Coursework for [The Odin Project](https://www.theodinproject.com)
 
 ## Methods
 - `#append(value)`

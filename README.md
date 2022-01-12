@@ -30,4 +30,4 @@ that removes the node at the given index.
 Calls the given block once for each value in self
 
 ## Included Modules
-- Enumerable
+- [Enumerable](https://ruby-doc.org/core-2.7.0/Enumerable.html)

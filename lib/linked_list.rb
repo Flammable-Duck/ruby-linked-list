@@ -21,21 +21,22 @@ class LinkedList
     @first_node
   end
 
-  def append(node)
+  def append(value)
     if @first_node.nil?
-      @first_node = node
+      @first_node = Node.new(value)
       return
     end
 
-    tail.next = node
+    tail.next = Node.new(value)
   end
 
-  def prepend(node)
+  def prepend(value)
     if @first_node.nil?
-      @first_node = node
+      @first_node = Node.new(value)
       return
     end
 
+    node = Node.new(value)
     node.next = @first_node
     @first_node = node
   end

@@ -4,8 +4,8 @@ require_relative '../lib/linked_list'
 
 list = LinkedList.new
 
-%w[first second third fourth fith].each { |value| list.append(Node.new(value)) }
-list.prepend(Node.new('zeroth'))
+%w[first second third fourth fith].each { |value| list.append(value) }
+list.prepend('zeroth')
 
 p list.to_s
 
